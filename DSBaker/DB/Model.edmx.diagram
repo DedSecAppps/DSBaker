@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f4393b1cfcb24be1aba9b1399f81833a" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Model.BuyProduct" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ClientAccount" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Product" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ProductType" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Purchase" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Staff" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Supply" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_BuyProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BuyProduct_Purchase" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Purchase_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Supply_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Purchase_Staff" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

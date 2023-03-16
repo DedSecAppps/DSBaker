@@ -1,0 +1,25 @@
+﻿<Window x:Class="DSBaker.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DSBaker"
+        mc:Ignorable="d"
+        Title="Registration" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button" Content="Регистрация" HorizontalAlignment="Left" Margin="599,373,0,0" VerticalAlignment="Top" Height="33" Width="155" Click="button_Click"/>
+        <Image x:Name="___MG_8350_jpg" Margin="6,3,616,307" Source="/MG_8350.jpg" Stretch="Fill"/>
+        <Label x:Name="label" Content="Укажите регистрационный номер(Любой)" HorizontalAlignment="Left" Margin="79,152,0,0" VerticalAlignment="Top" Width="283"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="85,179,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="84,229,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="E-mail" HorizontalAlignment="Left" Margin="85,199,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Номер телефона" HorizontalAlignment="Left" Margin="84,258,0,0" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="87,293,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label3" Content="Введите пароль" HorizontalAlignment="Left" Margin="92,321,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="80,347,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Image x:Name="___dessert_32__jpg" Margin="408,102,158,169" Source="/dessert(32).jpg" Stretch="Fill"/>
+        <Label x:Name="label4" Content="Добро пожаловать на  окно регистрации &#xD;&#xA;BakeryDedSec" HorizontalAlignment="Left" Margin="411,274,0,0" VerticalAlignment="Top" Width="257"/>
+        <Image x:Name="___GettyImages_184350005_jpg" Margin="503,351,209,11" Source="/GettyImages-184350005.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>
